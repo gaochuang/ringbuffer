@@ -1,6 +1,6 @@
 STATIC = libringbuffer.a
 SHARED = libringbuffer.so
-SRC = src/ringbuffer.c
+SRC = src/ringbuffer.c src/bipbuffer.c
 INC_DIR = include/
 
 PREFIX ?= /usr
